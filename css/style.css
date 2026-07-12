@@ -5,15 +5,15 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: times new roman, ariel;
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+    color: #0f0f0c;
+    background-color: #f7f7f8;
 }
 
 /* Navigation */
 nav {
-    background-color: #333;
+    background-color: #0f0f0c;
     padding: 1rem;
     margin-bottom: 2rem;
 }
