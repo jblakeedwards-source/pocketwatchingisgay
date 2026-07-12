@@ -3,63 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .container {
-            text-align: center;
-            background: white;
-            padding: 50px;
-            border-radius: 10px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-            max-width: 600px;
-        }
-        
-        h1 {
-            color: #333;
-            margin-bottom: 20px;
-        }
-        
-        p {
-            color: #666;
-            line-height: 1.6;
-            margin-bottom: 30px;
-        }
-        
-        .button {
-            display: inline-block;
-            background: #667eea;
-            color: white;
-            padding: 12px 30px;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-        
-        .button:hover {
-            background: #764ba2;
-        }
-    </style>
+    <title>Home - Your Site</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to Your Website!</h1>
-        <p>This is your new website hosted on GitHub Pages. Edit this file to customize your content.</p>
-        <a href="#" class="button">Get Started</a>
-    </div>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">YourSite</div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="pages/about.html" class="nav-link">About</a></li>
+                <li><a href="pages/projects.html" class="nav-link">Projects</a></li>
+                <li><a href="pages/contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Your Site</h1>
+            <p>Build something amazing</p>
+            <a href="pages/about.html" class="btn">Learn More</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="features">
+            <h2>Featured Content</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Feature One</h3>
+                    <p>Add your own content here. This is a great place to highlight what makes your site special.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Feature Two</h3>
+                    <p>Customize these sections with your own text, images, and links to match your needs.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Feature Three</h3>
+                    <p>Edit index.html to change this content. It's easy to personalize!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Your Site. All rights reserved.</p>
+    </footer>
 </body>
 </html>
